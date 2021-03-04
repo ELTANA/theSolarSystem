@@ -252,7 +252,7 @@ prev.addEventListener('click', function goPrev() {
 
 
 
-// -----------------------------------------------------
+// ----------  STICKY NAV BAR-------------------------------------
 jQuery.extend(jQuery.easing, {
 	easeInOutCubic: function (x, t, b, c, d) {
 		if ((t/=d/2) < 1) return c/2*t*t*t + b;
