@@ -1,1 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Lotanna Kyrian A. (EL'TANA)">
+    <meta name="The Solar System" content="the solar system, planets, mecury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto">
+    <meta name="keywords" content="the solar system, planets, mecury, venus, earth, mars, jupiter, saturn, uranus, neptune, pluto">
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/font-awesome5.15.2/css/all.css">
+    <link rel="stylesheet" href="./assets/vendor/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <script src="./assets/scripts/pointer.js"></script>
+    <title>The Solar System</title>
+</head>
 
+<body>
+    <!--  Begining of Scroll Progress Indicator -->
+    <div class="wrapper">
+        <svg class="complete" width="130" height="130">
+            <!-- <defs>
+                <linearGradient id="grad">
+                    <stop offset="0%" stop-color="#fbc2eb"></stop>
+                    <stop offset="100%" stop-color="#a6c1ee"></stop>
+                </linearGradient>
+            </defs> -->
+            <circle cx="99" cy="99" r="30"></circle>
+            <circle class="progress-bar" cx="99" cy="99" r="30">      
+                <p class="pct">0%</p>
+            </circle>
+        </svg>
+    </div>  <!-- End of Scroll Progress Indicator -->
+
+    <!--   Begininng of Container-Fluid    -->
+    <div class="container-fliud ">
+        <!--   Begining of Header   -->
+        <header>
+            <div class="row">
+                <div class="col-12">
+                    
+                    <!-- Sound Bars-->
+                    <div class="toggleBtn" style="cursor:pointer;">
+                        <span class="eqBar bar-1"></span>
+                        <span class="eqBar bar-2"></span>
+                        <span class="eqBar bar-3"></span>
+                        <span class="eqBar bar-4"></span>
+                        <span class="eqBar bar-5"></span>
+                    </div>
+
+                    <!-- Planets Slide Section -->
+                    <section class="solar__system">
+                        <!-- Begining of Star Divs -->
+                        <div id='stars'></div>
+                        <div id='stars2'></div>
+                        <div id='stars3'></div>
+                        <!-- End of Star Divs -->
+                        
+                        <div class="container-xxl">
+                            <div class="row planet__row">
+                                <div class="col-12 content">
+                                    <!-- <h1>The Solar System</h1> -->
+                                    <div class="planet__display">
+                                        <h1 class="planet__name slideImgs"></h1>
+                                        <img class="img-fluid" src="" id="slides"
+                                        data-aos="fade-down"
+                                        data-aos-offset="300"
+                                        data-aos-duration="1500"
+                                        data-aos-easing="ease-in-sine">
+
+                                        <h1 id="text"
+                                        data-aos="fade-up"
+                                        data-aos-offset="100"
+                                        data-aos-duration="1500"
+                                        data-aos-easing="ease-in-sine"></h1>
+                            
+                                        <button class="btn" id="prev"
+                                        data-aos="flip-right"
+                                        data-aos-offset="150"
+                                        data-aos-duration="1500"
+                                        data-aos-easing="ease-in-sine">Prev</button>
+
+                                        <button class="btn" id="next"
+                                        data-aos="flip-left"
+                                        data-aos-offset="150"
+                                        data-aos-duration="1500"
+                                        data-aos-easing="ease-in-sine">Next</button>
+                                    </div>
+                                </div>
+                            </div>     
+                        </div> <!-- End of Container-xxl Div -->
+                    </section> <!--   End of Solar Syatem Section   -->
+                </div> <!-- End of Header Column  -->
+            </div> <!-- End of Header Row-->
+        </header>  <!--   End of Header   -->
+
+
+        <!--   Begining of Main   -->
+        <main id="main">
+            <div class="container-fliud">
+
+                <!-- Begining Of Mecury Section -->
+                <section class="mecury pt-0 mt-5 px-md-5 px-sm-2" id="mecury">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Mecury</h4>
+                        
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of Mecury Acordion -->
+                            <div class="accordion accordion-flush p-2" id="mecuryAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mecury--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mecury--collapseOne" aria-expanded="false" aria-controls="mecury--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="mecury--collapseOne" class="accordion-collapse collapse" aria-labelledby="mecury--headingOne" data-bs-parent="#mecuryAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury is the smallest and closest planet to the sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin as Mercurius (Mercury), god of commerce, messenger of the gods, mediator between gods and mortals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mecury--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mecury--collapseTwo" aria-expanded="false" aria-controls="mecury--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="mecury--collapseTwo" class="accordion-collapse collapse" aria-labelledby="mecury--headingTwo" data-bs-parent="#mecuryAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="mecury--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mecury--collapseThree" aria-expanded="false" aria-controls="mecury--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="mecury--collapseThree" class="accordion-collapse collapse" aria-labelledby="mecury--headingThree" data-bs-parent="#mecuryAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Two spacecraft have visited Mercury: Mariner 10 flew by in 1974 and 1975; and MESSENGER, launched in 2004, orbited Mercury over 4,000 times in four years before exhausting its fuel and crashing into the planet's surface on April 30, 2015. The BepiColombo spacecraft is planned to arrive at Mercury in 2025.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mecury--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mecury--collapseFour" aria-expanded="false" aria-controls="mecury--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="mecury--collapseFour" class="accordion-collapse collapse" aria-labelledby="mecury--headingFour" data-bs-parent="#mecuryAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury's surface appears heavily cratered and is similar in appearance to the Moon's, indicating that it has been geologically inactive for billions of years. Having almost no atmosphere to retain heat, it has surface temperatures that vary diurnally more than on any other planet in the Solar System, ranging from 100 K (−173 °C; −280 °F) at night to 700 K (427 °C; 800 °F) during the day across the equatorial regions. The polar regions are constantly below 180 K (−93 °C; −136 °F). The planet has no known natural satellites. Mercury's axis has the smallest tilt of any of the Solar System's planets (about ​1⁄30 degree). Its orbital eccentricity is the largest of all known planets in the Solar System; at perihelion.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mecury--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mecury--collapseFive" aria-expanded="false" aria-controls="mecury--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="mecury--collapseFive" class="accordion-collapse collapse" aria-labelledby="mecury--headingFive" data-bs-parent="#mecuryAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury's distance from the Sun is only about two-thirds (or 66%) of its distance at aphelion. Mercury rotates in a way that is unique in the Solar System. It is tidally locked with the Sun in a 3:2 spin–orbit resonance, meaning that relative to the fixed stars, it rotates on its axis exactly three times for every two revolutions it makes around the Sun. As seen from the Sun, in a frame of reference that rotates with the orbital motion, it appears to rotate only once every two Mercurian years. An observer on Mercury would therefore see only one day every two Mercurian years.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Mercury</span> (0.4 AU from the Sun) is the closest planet to the Sun and on average, all seven other planets. The smallest planet in the Solar System (0.055 M⊕), Mercury has no natural satellites. Besides impact craters, its only known geological features are lobed ridges or rupes that were probably produced by a period of contraction early in its history. Mercury's very tenuous atmosphere consists of atoms blasted off its surface by the solar wind. Its relatively large iron core and thin mantle have not yet been adequately explained. Hypotheses include that its outer layers were stripped off by a giant impact, or that it was prevented from fully accreting by the young Sun's energy.
+                            </p>
+                            
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Mecury Section -->
+
+
+                <!-- Begining Of Venus Section -->
+                <section class="venus pt-0 mt-5 px-md-5 px-sm-2" id="venus">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Venus</h4>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Venus</span> (0.7 AU from the Sun) is close in size to Earth (0.815 M⊕) and, like Earth, has a thick silicate mantle around an iron core, a substantial atmosphere, and evidence of internal geological activity. It is much drier than Earth, and its atmosphere is ninety times as dense. Venus has no natural satellites. It is the hottest planet, with surface temperatures over 400 °C (752 °F), most likely due to the amount of greenhouse gases in the atmosphere. No definitive evidence of current geological activity has been detected on Venus, but it has no magnetic field that would prevent depletion of its substantial atmosphere, which suggests that its atmosphere is being replenished by volcanic eruptions.
+                            </p> 
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of venus Acordion -->
+                            <div class="accordion accordion-flush p-2" id="venusAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="venus--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#venus--collapseOne" aria-expanded="false" aria-controls="venus--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="venus--collapseOne" class="accordion-collapse collapse" aria-labelledby="venus--headingOne" data-bs-parent="#venusAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury is the smallest and closest planet to the sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin as Mercurius (Mercury), god of commerce, messenger of the gods, mediator between gods and mortals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="venus--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#venus--collapseTwo" aria-expanded="false" aria-controls="venus--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="venus--collapseTwo" class="accordion-collapse collapse" aria-labelledby="venus--headingTwo" data-bs-parent="#venusAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="venus--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#venus--collapseThree" aria-expanded="false" aria-controls="venus--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="venus--collapseThree" class="accordion-collapse collapse" aria-labelledby="venus--headingThree" data-bs-parent="#venusAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Two spacecraft have visited Mercury: Mariner 10 flew by in 1974 and 1975; and MESSENGER, launched in 2004, orbited Mercury over 4,000 times in four years before exhausting its fuel and crashing into the planet's surface on April 30, 2015. The BepiColombo spacecraft is planned to arrive at Mercury in 2025.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="venus--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#venus--collapseFour" aria-expanded="false" aria-controls="venus--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="venus--collapseFour" class="accordion-collapse collapse" aria-labelledby="venus--headingFour" data-bs-parent="#venusAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury's surface appears heavily cratered and is similar in appearance to the Moon's, indicating that it has been geologically inactive for billions of years. Having almost no atmosphere to retain heat, it has surface temperatures that vary diurnally more than on any other planet in the Solar System, ranging from 100 K (−173 °C; −280 °F) at night to 700 K (427 °C; 800 °F) during the day across the equatorial regions. The polar regions are constantly below 180 K (−93 °C; −136 °F). The planet has no known natural satellites. Mercury's axis has the smallest tilt of any of the Solar System's planets (about ​1⁄30 degree). Its orbital eccentricity is the largest of all known planets in the Solar System; at perihelion.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="venus--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#venus--collapseFive" aria-expanded="false" aria-controls="venus--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="venus--collapseFive" class="accordion-collapse collapse" aria-labelledby="venus--headingFive" data-bs-parent="#venusAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury's distance from the Sun is only about two-thirds (or 66%) of its distance at aphelion. Mercury rotates in a way that is unique in the Solar System. It is tidally locked with the Sun in a 3:2 spin–orbit resonance, meaning that relative to the fixed stars, it rotates on its axis exactly three times for every two revolutions it makes around the Sun. As seen from the Sun, in a frame of reference that rotates with the orbital motion, it appears to rotate only once every two Mercurian years. An observer on Mercury would therefore see only one day every two Mercurian years.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+                    </div><!-- End of Row -->
+                </section> <!-- End of Venus Section -->
+
+
+                <!-- Begining Of Earth Section -->
+                <section class="earth pt-0 mt-5 px-md-5 px-sm-2" id="earth">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Earth</h4>
+
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of earth Acordion -->
+                            <div class="accordion accordion-flush p-2" id="earthAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="earth--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#earth--collapseOne" aria-expanded="false" aria-controls="earth--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="earth--collapseOne" class="accordion-collapse collapse" aria-labelledby="earth--headingOne" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also by lakes, rivers, and other fresh water, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="earth--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#earth--collapseTwo" aria-expanded="false" aria-controls="earth--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="earth--collapseTwo" class="accordion-collapse collapse" aria-labelledby="earth--headingTwo" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                According to radiometric dating estimation and other evidence, Earth formed over 4.5 billion years ago. Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. Some geological evidence indicates that life may have arisen as early as 4.1 billion years ago. Since then, the combination of Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive. In the history of life on Earth, biodiversity has gone through long periods of expansion, occasionally punctuated by mass extinctions. Over 99% of all species that ever lived on Earth are extinct. Almost 8 billion humans live on Earth and depend on its biosphere and natural resources for their survival. Humans increasingly impact Earth's surface, hydrology, atmospheric processes and other life.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="earth--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#earth--collapseThree" aria-expanded="false" aria-controls="earth--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="earth--collapseThree" class="accordion-collapse collapse" aria-labelledby="earth--headingThree" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                WE ARE ALL HERE!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="earth--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#earth--collapseFour" aria-expanded="false" aria-controls="earth--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="earth--collapseFour" class="accordion-collapse collapse" aria-labelledby="earth--headingFour" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Earth's atmosphere consists mostly of nitrogen and oxygen. More solar energy is received by tropical regions than polar regions, and is redistributed by atmospheric and ocean circulation. Greenhouse gases also play an important role in regulating the surface temperature. A region's climate is not only determined by latitude, but also by elevation, and by proximity to moderating oceans, among other factors. Extreme weather, such as tropical cyclones and heat waves, occurs in most areas and has a large impact on life.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="earth--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#earth--collapseFive" aria-expanded="false" aria-controls="earth--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="earth--collapseFive" class="accordion-collapse collapse" aria-labelledby="earth--headingFive" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in about 365.25 days. Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth. The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth's orientation on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the largest and most massive of the four rocky planets.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Earth</span> (1 AU from the Sun) is the largest and densest of the inner planets, the only one known to have current geological activity, and the only place where life is known to exist. Its liquid hydrosphere is unique among the terrestrial planets, and it is the only planet where plate tectonics has been observed. Earth's atmosphere is radically different from those of the other planets, having been altered by the presence of life to contain 21% free oxygen. It has one natural satellite, the Moon, the only large satellite of a terrestrial planet in the Solar System.
+                            </p> 
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Earth Section -->
+
+                
+                <!-- Begining Of Mars Section -->
+                <section class="mars pt-0 mt-5 px-md-5 px-sm-2" id="mars">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Mars</h4>
+
+                        <div class="col col-md-6  d-flex bg--transp-white">
+                            <p class="p-2 text-light">
+                                <span class="bolder">Mars</span> (1.5 AU from the Sun) is smaller than <a href="#earth" target="_blank" rel="noopener noreferrer">Earth</a> and <a href="#venus" target="_blank" rel="noopener noreferrer">Venus</a> (0.107 M⊕). It has an atmosphere of mostly carbon dioxide with a surface pressure of 6.1 millibars (roughly 0.6% of that of <a href="#earth" target="_blank" rel="noopener noreferrer">Earth</a>). Its surface, peppered with vast volcanoes, such as Olympus Mons, and rift valleys, such as Valles Marineris, shows geological activity that may have persisted until as recently as 2 million years ago. Its <code>red</code> colour comes from iron oxide (rust) in its soil. Mars has two tiny natural satellites (Deimos and Phobos) thought to be either captured asteroids, or ejected debris from a massive impact early in Mars's history.
+                            </p>
+                            
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of Mars Acordion -->
+                            <div class="accordion accordion-flush p-2" id="marsAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mars--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mars--collapseOne" aria-expanded="false" aria-controls="mars--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="mars--collapseOne" class="accordion-collapse collapse" aria-labelledby="mars--headingOne" data-bs-parent="#marsAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "<code>Red</code> Planet". The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a <code>reddish</code> appearance distinctive among the astronomical bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of <a href="#earth" target="_blank" rel="noopener noreferrer"></a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mars--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mars--collapseTwo" aria-expanded="false" aria-controls="mars--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="mars--collapseTwo" class="accordion-collapse collapse" aria-labelledby="mars--headingTwo" data-bs-parent="#marsAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The days and seasons are comparable to those of Earth, because the rotational period as well as the tilt of the rotational axis relative to the ecliptic plane are similar. Mars is the site of Olympus Mons, the largest volcano and highest known mountain on any planet in the Solar System, and of Valles Marineris, one of the largest canyons in the Solar System. The smooth Borealis basin in the Northern Hemisphere covers 40% of the planet and may be a giant impact feature. Mars has two moons, Phobos and Deimos, which are small and irregularly shaped. These may be captured asteroids, similar to 5261 Eureka, a Mars trojan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="mars--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mars--collapseThree" aria-expanded="false" aria-controls="mars--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="mars--collapseThree" class="accordion-collapse collapse" aria-labelledby="mars--headingThree" data-bs-parent="#marsAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mars has been explored by several uncrewed spacecraft. Mariner 4 was the first spacecraft to visit Mars; launched by NASA on 28 November 1964, it made its closest approach to the planet on 15 July 1965. Mariner 4 detected the weak Martian radiation belt, measured at about 0.1% that of Earth, and captured the first images of another planet from deep space. The Soviet Mars 3 mission included a lander, which achieved a soft landing in December 1971; however, contact was lost seconds after touchdown. On 20 July 1976, Viking 1 performed the first successful landing on the Martian surface. On 4 July 1997, the Mars Pathfinder spacecraft landed on Mars and on 5 July released its rover, Sojourner, the first robotic rover to operate on Mars. The Mars Express orbiter, the first European Space Agency (ESA) spacecraft to visit Mars, arrived in orbit on 25 December 2003. In January 2004, NASA's Mars Exploration Rovers, named Spirit and Opportunity, both landed on Mars; Spirit operated until 22 March 2010 and Opportunity lasted until 10 June 2018. NASA landed its Curiosity rover on August 6, 2012, as a part of its Mars Science Laboratory (MSL) mission to investigate Martian climate and geology. On 24 September 2014, the Indian Space Research Organisation (ISRO) became the fourth space agency to visit Mars when its maiden interplanetary mission, the Mars Orbiter Mission spacecraft, arrived in orbit. The United Arab Emirates became the fifth to successfully undertake a mission to Mars, having inserted an orbiter in to the Martian atmosphere on 9 February 2021. NASA's Perseverance rover successfully landed on Mars on 18 February 2021.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mars--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mars--collapseFour" aria-expanded="false" aria-controls="mars--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="mars--collapseFour" class="accordion-collapse collapse" aria-labelledby="mars--headingFour" data-bs-parent="#marsAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                There are investigations assessing the past habitability of Mars, as well as the possibility of extant life. Astrobiology missions are planned, such as the European Space Agency's Rosalind Franklin rover. Liquid water on the surface of Mars cannot exist due to low atmospheric pressure, which is less than 1% of the atmospheric pressure on Earth, except at the lowest elevations for short periods. The two polar ice caps appear to be made largely of water. The volume of water ice in the south polar ice cap, if melted, would be sufficient to cover the planetary surface to a depth of 11 metres (36 ft). In November 2016, NASA reported finding a large amount of underground ice in the Utopia Planitia region. The volume of water detected has been estimated to be equivalent to the volume of water in Lake Superior.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="mars--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mars--collapseFive" aria-expanded="false" aria-controls="mars--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="mars--collapseFive" class="accordion-collapse collapse" aria-labelledby="mars--headingFive" data-bs-parent="#marsAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mars can easily be seen from Earth with the naked eye, as can its <code>reddish</code> coloring. Its apparent magnitude reaches −2.94, which is surpassed only by Venus, the Moon and the Sun. Optical ground-based telescopes are typically limited to resolving features about 300 kilometres (190 mi) across when Earth and Mars are closest because of Earth's atmosphere.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Mars Section -->
+                
+              
+                <!-- Begining Of Jupiter Section -->
+                <section class="jupiter pt-0 mt-5 px-md-5 px-sm-2" id="jupiter">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Jupiter</h4>
+
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of jupiter Acordion -->
+                            <div class="accordion accordion-flush p-2" id="earthAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="jupiter--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#jupiter--collapseOne" aria-expanded="false" aria-controls="jupiter--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="jupiter--collapseOne" class="accordion-collapse collapse" aria-labelledby="jupiter--headingOne" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two and a half times that of all the other planets in the Solar System combined. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="jupiter--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#jupiter--collapseTwo" aria-expanded="false" aria-controls="jupiter--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="jupiter--collapseTwo" class="accordion-collapse collapse" aria-labelledby="jupiter--headingTwo" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Jupiter has 79 known natural satellites. Of these, 60 are less than 10 kilometres in diameter. The four largest moons are Io, Europa, Ganymede, and Callisto, collectively known as the "Galilean moons", and are visible from Earth with binoculars on a clear night. Surrounding Jupiter is a faint planetary ring system and a powerful magnetosphere. Jupiter has almost a hundred known moons and possibly many more,[19] including the four large Galilean moons discovered by Galileo Galilei in 1610. Ganymede, the largest of these, has a diameter greater than that of the planet Mercury.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="jupiter--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#jupiter--collapseThree" aria-expanded="false" aria-controls="jupiter--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="jupiter--collapseThree" class="accordion-collapse collapse" aria-labelledby="jupiter--headingThree" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Pioneer 10 was the first spacecraft to visit Jupiter, making its closest approach to the planet in December 1973; Pioneer 10 identified plasma in Jupiter's magnetic field and also found that Jupiter's magnetic tail is nearly 800 million kilometres long, covering the entire distance to Saturn. Jupiter has been explored on a number of occasions by robotic spacecraft, beginning with the Pioneer and Voyager flyby missions from 1973 to 1979, and later by the Galileo orbiter, which arrived at Jupiter in 1995. In 2007, Jupiter was visited by the New Horizons probe, which used Jupiter's gravity to increase its speed and bend its trajectory en route to Pluto. The latest probe to visit the planet, Juno, entered orbit around Jupiter in July 2016. Future targets for exploration in the Jupiter system include the probable ice-covered liquid ocean of the moon Europa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="jupiter--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#jupiter--collapseFour" aria-expanded="false" aria-controls="jupiter--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="jupiter--collapseFour" class="accordion-collapse collapse" aria-labelledby="jupiter--headingFour" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Jupiter is primarily composed of hydrogen, but helium comprises one quarter of its mass and one tenth of its volume. It likely has a rocky core of heavier elements, but like the other giant planets, Jupiter lacks a well-defined solid surface. The on-going contraction of its interior generates heat greater than the amount received from the Sun. Because of its rapid rotation, the planet's shape is that of an oblate spheroid; it has a slight but noticeable bulge around the equator. The outer atmosphere is visibly segregated into several bands at different latitudes, with turbulence and storms along their interacting boundaries. A prominent result of this is the Great Red Spot, a giant storm that is known to have existed since at least the 17th century, when it was first seen by telescope.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="jupiter--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#jupiter--collapseFive" aria-expanded="false" aria-controls="jupiter--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="jupiter--collapseFive" class="accordion-collapse collapse" aria-labelledby="jupiter--headingFive" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Jupiter is the only planet whose barycentre with the Sun lies outside the volume of the Sun, though by only 7% of the Sun's radius.[99] The average distance between Jupiter and the Sun is 778 million km (about 5.2 times the average distance between Earth and the Sun, or 5.2 AU) and it completes an orbit every 11.86 years. This is approximately two-fifths the orbital period of Saturn, forming a near orbital resonance. The elliptical orbit of Jupiter is inclined 1.31° compared to Earth. Because the eccentricity of its orbit is 0.048, Jupiter is slightly over 75 million km nearer the Sun at perihelion than aphelion. The axial tilt of Jupiter is relatively small, only 3.13°, so its seasons are insignificant compared to Earth and Mars. Jupiter's rotation is the fastest of all the Solar System's planets, completing a rotation on its axis in slightly less than ten hours; this creates an equatorial bulge easily seen through an amateur telescope. The planet is an oblate spheroid, meaning that the diameter across its equator is longer than the diameter measured between its poles. On Jupiter, the equatorial diameter is 9,275 km (5,763 mi) longer than the polar diameter. Because Jupiter is not a solid body, its upper atmosphere undergoes differential rotation. The rotation of Jupiter's polar atmosphere is about 5 minutes longer than that of the equatorial atmosphere; three systems are used as frames of reference, particularly when graphing the motion of atmospheric features. System I applies to latitudes from 10° N to 10° S; its period is the planet's shortest, at 9h 50m 30.0s. System II applies at all latitudes north and south of these; its period is 9h 55m 40.6s. System III was defined by radio astronomers and corresponds to the rotation of the planet's magnetosphere; its period is Jupiter's official rotation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Jupiter</span> (5.2 AU), at 318 M⊕, is 2.5 times the mass of all the other planets put together. It is composed largely of hydrogen and helium. Jupiter's strong internal heat creates semi-permanent features in its atmosphere, such as cloud bands and the Great Red Spot. Jupiter has 79 known satellites. The four largest, Ganymede, Callisto, Io, and Europa, show similarities to the terrestrial planets, such as volcanism and internal heating.[104] Ganymede, the largest satellite in the Solar System, is larger than Mercury.
+                            </p> 
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Jupiter Section -->
+
+
+                <!-- Begining Of Saturn Section -->
+                <section class="saturn pt-0 mt-5 px-md-5 px-sm-2" id="saturn">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Saturn</h4>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Saturn</span> (9.5 AU), distinguished by its extensive ring system, has several similarities to Jupiter, such as its atmospheric composition and magnetosphere. Although Saturn has 60% of Jupiter's volume, it is less than a third as massive, at 95 M⊕. Saturn is the only planet of the Solar System that is less dense than water. The rings of Saturn are made up of small ice and rock particles. Saturn has 82 confirmed satellites composed largely of ice. Two of these, Titan and Enceladus, show signs of geological activity. Titan, the second-largest moon in the Solar System, is larger than Mercury and the only satellite in the Solar System with a substantial atmosphere.
+                            </p> 
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of saturn Acordion -->
+                            <div class="accordion accordion-flush p-2" id="saturnAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="saturn--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#saturn--collapseOne" aria-expanded="false" aria-controls="saturn--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="saturn--collapseOne" class="accordion-collapse collapse" aria-labelledby="saturn--headingOne" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine times that of Earth. It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive. Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (♄) represents the god's sickle. The Romans named the seventh day of the week Saturday, Sāturni diēs ("Saturn's Day") no later than the 2nd century for the planet Saturn. Saturn is the only planet of the Solar System that is less dense than water—about 30% less. Although Saturn's core is considerably denser than water, the average specific density of the planet is 0.69 g/cm<sup>3</sup> due to the atmosphere. Jupiter has 318 times Earth's mass, and Saturn is 95 times Earth's mass. Together, Jupiter and Saturn hold 92% of the total planetary mass in the Solar System.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="saturn--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#saturn--collapseTwo" aria-expanded="false" aria-controls="saturn--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="saturn--collapseTwo" class="accordion-collapse collapse" aria-labelledby="saturn--headingTwo" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles, with a smaller amount of rocky debris and dust. At least 82 moons are known to orbit Saturn, of which 53 are officially named; this does not include the hundreds of moonlets in its rings. Titan, Saturn's largest moon and the second largest in the Solar System, is larger than the planet Mercury, although less massive, and is the only moon in the Solar System to have a substantial atmosphere. Saturn has 82 known moons, 53 of which have formal names.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="saturn--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#saturn--collapseThree" aria-expanded="false" aria-controls="saturn--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="saturn--collapseThree" class="accordion-collapse collapse" aria-labelledby="saturn--headingThree" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Pioneer 11 made the first flyby of Saturn in September 1979, when it passed within 20,000 km of the planet's cloud tops. Images were taken of the planet and a few of its moons, although their resolution was too low to discern surface detail. The spacecraft also studied Saturn's rings, revealing the thin F-ring and the fact that dark gaps in the rings are bright when viewed at high phase angle (towards the Sun), meaning that they contain fine light-scattering material. In addition, Pioneer 11 measured the temperature of Titan. In November 1980, the Voyager 1 probe visited the Saturn system. It sent back the first high-resolution images of the planet, its rings and satellites. Surface features of various moons were seen for the first time. The Cassini–Huygens space probe entered orbit around Saturn on 1 July 2004. In June 2004, it conducted a close flyby of Phoebe, sending back high-resolution images and data. Cassini's flyby of Saturn's largest moon, Titan, captured radar images of large lakes and their coastlines with numerous islands and mountains. The orbiter completed two Titan flybys before releasing the Huygens probe on 25 December 2004. Huygens descended onto the surface of Titan on 14 January 2005.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="saturn--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#saturn--collapseFour" aria-expanded="false" aria-controls="saturn--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="saturn--collapseFour" class="accordion-collapse collapse" aria-labelledby="saturn--headingFour" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Saturn's interior is most likely composed of a core of iron–nickel and rock (silicon and oxygen compounds). Its core is surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. An electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, which is weaker than the Earth's, but which has a magnetic moment 580 times that of Earth due to Saturn's larger size. Saturn's magnetic field strength is around one-twentieth of Jupiter's. The outer atmosphere is generally bland and lacking in contrast, although long-lived features can appear. Wind speeds on Saturn can reach 1,800 km/h (1,100 mph; 500 m/s), higher than on Jupiter but not as high as on Neptune. In January 2019, astronomers reported that a day on the planet Saturn has been determined to be 10<sup>h</sup> 33<sup>m</sup> 38<sup>s</sup> <sup>+1<sup>m</sup> 52<sup>s</sup></sup><sub>−1<sup>m</sup> 19<sup>s</sup></sub>, based on studies of the planet's C Ring.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="saturn--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#saturn--collapseFive" aria-expanded="false" aria-controls="saturn--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="saturn--collapseFive" class="accordion-collapse collapse" aria-labelledby="saturn--headingFive" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The average distance between Saturn and the Sun is over 1.4 billion kilometers (9 AU). With an average orbital speed of 9.68 km/s, it takes Saturn 10,759 Earth days (or about ​29 <sup>1</sup>⁄<sub>2</sub> years) to finish one revolution around the Sun. As a consequence, it forms a near 5:2 mean-motion resonance with Jupiter. The elliptical orbit of Saturn is inclined 2.48° relative to the orbital plane of the Earth. The perihelion and aphelion distances are, respectively, 9.195 and 9.957 AU, on average. The visible features on Saturn rotate at different rates depending on latitude and multiple rotation periods have been assigned to various regions (as in Jupiter's case).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>   
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Saturn Section -->
+
+                
+                <!-- Begining Of Uranus Section -->
+                <section class="uranus pt-0 mt-5 px-md-5 px-sm-2" id="uranus">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Uranus</h4>
+
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of uranus Acordion -->
+                            <div class="accordion accordion-flush p-2" id="earthAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="uranus--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#uranus--collapseOne" aria-expanded="false" aria-controls="uranus--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="uranus--collapseOne" class="accordion-collapse collapse" aria-labelledby="uranus--headingOne" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as "ice giants" to distinguish them from the other gas giants.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="uranus--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#uranus--collapseTwo" aria-expanded="false" aria-controls="uranus--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="uranus--collapseTwo" class="accordion-collapse collapse" aria-labelledby="uranus--headingTwo" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Uranus's mass is roughly 14.5 times that of Earth, making it the least massive of the giant planets. Its diameter is slightly larger than Neptune's at roughly four times that of Earth. A resulting density of 1.27 g/cm3 makes Uranus the second least dense planet, after Saturn. This value indicates that it is made primarily of various ices, such as water, ammonia, and methane. The total mass of ice in Uranus's interior is not precisely known, because different figures emerge depending on the model chosen; it must be between 9.3 and 13.5 Earth masses. Hydrogen and helium constitute only a small part of the total, with between 0.5 and 1.5 Earth masses. The remainder of the non-ice mass (0.5 to 3.7 Earth masses) is accounted for by rocky material.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="uranus--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#uranus--collapseThree" aria-expanded="false" aria-controls="uranus--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="uranus--collapseThree" class="accordion-collapse collapse" aria-labelledby="uranus--headingThree" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                In 1986, NASA's Voyager 2 interplanetary probe encountered Uranus. This flyby remains the only investigation of Uranus carried out from a short distance and no other visits are planned. Launched in 1977, Voyager 2 made its closest approach to Uranus on 24 January 1986, coming within 81,500 km (50,600 mi) of the cloudtops, before continuing its journey to Neptune. The spacecraft studied the structure and chemical composition of Uranus's atmosphere, including its unique weather, caused by its axial tilt of 97.77°. It made the first detailed investigations of its five largest moons and discovered 10 new ones. It examined all nine of the system's known rings and discovered two more. It also studied the magnetic field, its irregular structure, its tilt and its unique corkscrew magnetotail caused by Uranus's sideways orientation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="uranus--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#uranus--collapseFour" aria-expanded="false" aria-controls="uranus--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="uranus--collapseFour" class="accordion-collapse collapse" aria-labelledby="uranus--headingFour" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium.[16] The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere, which corresponds to a mass fraction 0.26±0.05. This value is close to the protosolar helium mass fraction of 0.275±0.01, indicating that helium has not settled in its centre as it has in the gas giants. The third-most-abundant component of Uranus's atmosphere is methane (CH4). Methane has prominent absorption bands in the visible and near-infrared (IR), making Uranus aquamarine or cyan in colour. Methane molecules account for 2.3% of the atmosphere by molar fraction below the methane cloud deck at the pressure level of 1.3 bar (130 kPa); this represents about 20 to 30 times the carbon abundance found in the Sun. The mixing ratio is much lower in the upper atmosphere due to its extremely low temperature, which lowers the saturation level and causes excess methane to freeze out. The abundances of less volatile compounds such as ammonia, water, and hydrogen sulfide in the deep atmosphere are poorly known. They are probably also higher than solar values. Along with methane, trace amounts of various hydrocarbons are found in the stratosphere of Uranus, which are thought to be produced from methane by photolysis induced by the solar ultraviolet (UV) radiation. They include ethane (C2H6), acetylene (C2H2), methylacetylene (CH3C2H), and diacetylene (C2HC2H). Spectroscopy has also uncovered traces of water vapour, carbon monoxide and carbon dioxide in the upper atmosphere, which can only originate from an external source such as infalling dust and comets.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="uranus--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#uranus--collapseFive" aria-expanded="false" aria-controls="uranus--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="uranus--collapseFive" class="accordion-collapse collapse" aria-labelledby="uranus--headingFive" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Uranus orbits the Sun once every 84 years, taking an average of seven years to pass through each constellation of the zodiac. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781. The planet has returned to the point of its discovery northeast of Zeta Tauri twice since then, in 1862 and 1943, one day later each time as the precession of the equinoxes has shifted it 1° west every 72 years. Uranus will return to this location again in 2030-31. Its average distance from the Sun is roughly 20 AU (3 billion km; 2 billion mi). The difference between its minimum and maximum distance from the Sun is 1.8 AU, larger than that of any other planet, though not as large as that of dwarf planet Pluto. The intensity of sunlight varies inversely with the square of distance, and so on Uranus (at about 20 times the distance from the Sun compared to Earth) it is about 1/400 the intensity of light on Earth.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Uranus</span> (19.2 AU), at 14 M⊕, is the lightest of the outer planets. Uniquely among the planets, it orbits the Sun on its side; its axial tilt is over ninety degrees to the ecliptic. It has a much colder core than the other giant planets and radiates very little heat into space. Uranus has 27 known satellites, the largest ones being Titania, Oberon, Umbriel, Ariel, and Miranda.
+                            </p> 
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Uranus Section -->
+
+
+                <!-- Begining Of Neptune Section -->
+                <section class="neptune pt-0 mt-5 px-md-5 px-sm-2" id="neptune">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Neptune</h4>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                <span class="bolder">Neptune</span> (30.1 AU), though slightly smaller than Uranus, is more massive (17 M⊕) and hence more dense. It radiates more internal heat, but not as much as Jupiter or Saturn. Neptune has 14 known satellites. The largest, Triton, is geologically active, with geysers of liquid nitrogen.[110] Triton is the only large satellite with a retrograde orbit. Neptune is accompanied in its orbit by several minor planets, termed Neptune trojans, that are in 1:1 resonance with it.
+                            </p> 
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of neptune Acordion -->
+                            <div class="accordion accordion-flush p-2" id="saturnAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="neptune--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#neptune--collapseOne" aria-expanded="false" aria-controls="neptune--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="neptune--collapseOne" class="accordion-collapse collapse" aria-labelledby="neptune--headingOne" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Mercury is the smallest and closest planet to the sun in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin as Mercurius (Mercury), god of commerce, messenger of the gods, mediator between gods and mortals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="neptune--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#neptune--collapseTwo" aria-expanded="false" aria-controls="neptune--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="neptune--collapseTwo" class="accordion-collapse collapse" aria-labelledby="neptune--headingTwo" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi). It is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="neptune--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#neptune--collapseThree" aria-expanded="false" aria-controls="neptune--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="neptune--collapseThree" class="accordion-collapse collapse" aria-labelledby="neptune--headingThree" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Voyager 2 is the only spacecraft that has visited Neptune. The spacecraft's closest approach to the planet occurred on 25 August 1989. Because this was the last major planet the spacecraft could visit, it was decided to make a close flyby of the moon Triton, regardless of the consequences to the trajectory, similarly to what was done for Voyager 1's encounter with Saturn and its moon Titan. The images relayed back to Earth from Voyager 2 became the basis of a 1989 PBS all-night program, Neptune All Night. During the encounter, signals from the spacecraft required 246 minutes to reach Earth. Hence, for the most part, Voyager 2's mission relied on preloaded commands for the Neptune encounter. The spacecraft performed a near-encounter with the moon Nereid before it came within 4,400 km of Neptune's atmosphere on 25 August, then passed close to the planet's largest moon Triton later the same day. The spacecraft verified the existence of a magnetic field surrounding the planet and discovered that the field was offset from the centre and tilted in a manner similar to the field around Uranus. Neptune's rotation period was determined using measurements of radio emissions and Voyager 2 also showed that Neptune had a surprisingly active weather system. Six new moons were discovered, and the planet was shown to have more than one ring.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="neptune--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#neptune--collapseFour" aria-expanded="false" aria-controls="neptune--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="neptune--collapseFour" class="accordion-collapse collapse" aria-labelledby="neptune--headingFour" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Like Jupiter and Saturn, Neptune's atmosphere is composed primarily of hydrogen and helium, along with traces of hydrocarbons and possibly nitrogen, though it contains a higher proportion of "ices" such as water, ammonia and methane. However, similar to Uranus, its interior is primarily composed of ices and rock; Uranus and Neptune are normally considered "ice giants" to emphasise this distinction. Traces of methane in the outermost regions in part account for the planet's blue appearance. In contrast to the hazy, relatively featureless atmosphere of Uranus, Neptune's atmosphere has active and visible weather patterns. For example, at the time of the Voyager 2 flyby in 1989, the planet's southern hemisphere had a Great Dark Spot comparable to the Great Red Spot on Jupiter. More recently, in 2018, a newer main dark spot and smaller dark spot were identified and studied. Nonetheless, these weather patterns are driven by the strongest sustained winds of any planet in the Solar System, with recorded wind speeds as high as 2,100 km/h (580 m/s; 1,300 mph). Because of its great distance from the Sun, Neptune's outer atmosphere is one of the coldest places in the Solar System, with temperatures at its cloud tops approaching 55 K (−218 °C; −361 °F). Temperatures at the planet's centre are approximately 5,400 K (5,100 °C; 9,300 °F). Neptune has a faint and fragmented ring system (labelled "arcs"), which was discovered in 1984, then later confirmed by Voyager 2.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="neptune--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#neptune--collapseFive" aria-expanded="false" aria-controls="neptune--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="neptune--collapseFive" class="accordion-collapse collapse" aria-labelledby="neptune--headingFive" data-bs-parent="#saturnAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The average distance between Neptune and the Sun is 4.5 billion km (about 30.1 astronomical units (AU)), and it completes an orbit on average every 164.79 years, subject to a variability of around ±0.1 years. The perihelion distance is 29.81 AU; the aphelion distance is 30.33 AU. On 11 July 2011, Neptune completed its first full barycentric orbit since its discovery in 1846, although it did not appear at its exact discovery position in the sky, because Earth was in a different location in its 365.26-day orbit. Because of the motion of the Sun in relation to the barycentre of the Solar System, on 11 July Neptune was also not at its exact discovery position in relation to the Sun; if the more common heliocentric coordinate system is used, the discovery longitude was reached on 12 July 2011. The elliptical orbit of Neptune is inclined 1.77° compared to that of Earth.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Neptune Section -->
+
+
+                <!-- Begining Of Pluto Section -->
+                <section class="pluto pt-0 mt-0 px-md-5 px-sm-2" id="pluto">
+                    <!-- Begining of Star Divs -->
+                    <div id='stars'></div>
+                    <div id='stars2'></div>
+                    <div id='stars3'></div>
+                    <!-- End of Star Divs -->
+
+                    <div class="row mb-5  align-items-center">                    
+                        <h4>Pluto</h4>
+
+                        <div class="col col-md-6 d-flex">
+                            <!-- Begining of pluto Acordion -->
+                            <div class="accordion accordion-flush p-2" id="earthAccordionFlush">
+                                
+                                <!-- Acordion Item One -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="pluto--headingOne">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#pluto--collapseOne" aria-expanded="false" aria-controls="pluto--collapseOne">
+                                            About
+                                        </button>
+                                    </h2>
+                                    <div id="pluto--collapseOne" class="accordion-collapse collapse" aria-labelledby="pluto--headingOne" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Pluto (minor planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It was the first and the largest Kuiper belt object to be discovered. After Pluto was discovered in 1930, it was declared to be the ninth planet from the Sun. Beginning in the 1990s, its status as a planet was questioned following the discovery of several objects of similar size in the Kuiper belt, including the dwarf planet Eris. This led the International Astronomical Union (IAU) in 2006 to formally define the term "planet" — excluding Pluto and reclassifying it as a dwarf planet.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item One -->
+
+                                <!-- Acordion Item Two -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="pluto--headingTwo">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#pluto--collapseTwo" aria-expanded="false" aria-controls="pluto--collapseTwo">
+                                            Facts
+                                        </button>
+                                    </h2>
+                                    <div id="pluto--collapseTwo" class="accordion-collapse collapse" aria-labelledby="pluto--headingTwo" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                Pluto is the ninth-largest and tenth-most-massive known object directly orbiting the Sun. It is the largest known trans-Neptunian object by volume but is less massive than Eris. Like other Kuiper belt objects, Pluto is primarily made of ice and rock and is relatively small—one-sixth the mass of the Moon and one-third its volume. It has a moderately eccentric and inclined orbit during which it ranges from 30 to 49 astronomical units or AU (4.4–7.4 billion km) from the Sun. This means that Pluto periodically comes closer to the Sun than Neptune, but a stable orbital resonance with Neptune prevents them from colliding. Light from the Sun takes 5.5 hours to reach Pluto at its average distance (39.5 AU). Pluto has five known moons: Charon (the largest, with a diameter just over half that of Pluto), Styx, Nix, Kerberos, and Hydra. Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body. Pluto's orbital period is currently about 248 years.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Two -->
+
+                                <!-- Acordion Item Three -->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="pluto--headingThree">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#pluto--collapseThree" aria-expanded="false" aria-controls="pluto--collapseThree">
+                                            Missions
+                                        </button>
+                                    </h3>
+                                    <div id="pluto--collapseThree" class="accordion-collapse collapse" aria-labelledby="pluto--headingThree" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                The New Horizons spacecraft performed a flyby of Pluto on July 14, 2015, becoming the first and, to date, only spacecraft to do so. During its brief flyby, New Horizons made detailed measurements and observations of Pluto and its moons. In September 2016, astronomers announced that the reddish-brown cap of the north pole of Charon is composed of tholins, organic macromolecules that may be ingredients for the emergence of life, and produced from methane, nitrogen and other gases released from the atmosphere of Pluto and transferred 19,000 km (12,000 mi) to the orbiting moon.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Three -->
+
+                                <!-- Acordion Item Four -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="pluto--headingFour">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#pluto--collapseFour" aria-expanded="false" aria-controls="pluto--collapseFour">
+                                            Composition
+                                        </button>
+                                    </h2>
+                                    <div id="pluto--collapseFour" class="accordion-collapse collapse" aria-labelledby="pluto--headingFour" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                pluto is primarily composed of hydrogen, but helium comprises one quarter of its mass and one tenth of its volume. It likely has a rocky core of heavier elements, but like the other giant planets, pluto lacks a well-defined solid surface. The on-going contraction of its interior generates heat greater than the amount received from the Sun. Because of its rapid rotation, the planet's shape is that of an oblate spheroid; it has a slight but noticeable bulge around the equator. The outer atmosphere is visibly segregated into several bands at different latitudes, with turbulence and storms along their interacting boundaries. A prominent result of this is the Great Red Spot, a giant storm that is known to have existed since at least the 17th century, when it was first seen by telescope.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Four -->
+                                
+                                <!-- Acordion Item Five -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="pluto--headingFive">
+                                        <button class="accordion-button btn collapsed mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#pluto--collapseFive" aria-expanded="false" aria-controls="pluto--collapseFive">
+                                            Distance
+                                        </button>
+                                    </h2>
+                                    <div id="pluto--collapseFive" class="accordion-collapse collapse" aria-labelledby="pluto--headingFive" data-bs-parent="#earthAccordionFlush">
+                                        <div class="accordion-body text-light">
+                                            <p>
+                                                It has a moderately eccentric and inclined orbit during which it ranges from 30 to 49 astronomical units or AU (4.4–7.4 billion km) from the Sun. This means that Pluto periodically comes closer to the Sun than Neptune, but a stable orbital resonance with Neptune prevents them from colliding. Light from the Sun takes 5.5 hours to reach Pluto at its average distance (39.5 AU).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- End of Acordion Item Five -->
+
+                            </div> <!-- End of Accordion Div -->
+                            
+                        </div>
+                        
+                        <div class="col col-md-6 d-flex bg--transp-white">
+                            <p class="p-2 bold text-light">
+                                The dwarf planet <span class="bolder">Pluto</span> (39 AU average) is the largest known object in the Kuiper belt. When discovered in 1930, it was considered to be the ninth planet; this changed in 2006 with the adoption of a formal definition of planet. Pluto has a relatively eccentric orbit inclined 17 degrees to the ecliptic plane and ranging from 29.7 AU from the Sun at perihelion (within the orbit of Neptune) to 49.5 AU at aphelion. Pluto has a 3:2 resonance with Neptune, meaning that Pluto orbits twice round the Sun for every three Neptunian orbits. Kuiper belt objects whose orbits share this resonance are called plutinos. Charon, the largest of Pluto's moons, is sometimes described as part of a binary system with Pluto, as the two bodies orbit a barycentre of gravity above their surfaces (i.e. they appear to "orbit each other"). Beyond Charon, four much smaller moons, Styx, Nix, Kerberos, and Hydra, orbit within the system.
+                            </p> 
+                        </div>
+
+                    </div><!-- End of Row -->
+                </section> <!-- End of Pluto Section -->
+
+
+                
+            </div> <!-- End of Main Container-Fluid -->
+        </main> <!-- End of Main -->
+
+        <!-- Begining of Footer -->
+        <footer id="footer" id="footer">
+            <div class="container py-0 my-0">
+                <div class="row py-0 my-0">
+                    <div class="col-md-5 text-center">
+                        <small class="text-light">
+                            <span class="text-white">&copy;</span>2021 EL'TANA Concepts Inc. All Rights reserved.
+                        </small>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <small>
+                            <a  class="text-white social" href="tel:+2348066678889">
+                                <i class="fas fa-phone-alt text-red hover__white mx-3"></i></a>
+                        </small>
+                        <small>
+                            <a  class="text-white social" href="http://instagram.com/mayne-eltana">
+                                <i class="fab fa-instagram text-red hover__white mx-3"></i></a>
+                        </small>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <small class="text-light">
+                            Coded with <code>&hearts;</code> by EL'TANA <code class="text-red">&lparlt;</code>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- End of Footer -->
+
+    </div> <!-- End of Main Container-Fluid -->
+
+
+
+    <script src="./assets/vendor/jquery-3.5.1/jquery-v3.5.1.js"></script>
+    <script src="./assets/vendor/popper-2.x/popper.js"></script>
+    <script src="./assets/vendor/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+    <script src="./assets/vendor/font-awesome5.15.2/js/all.js"></script>
+    <script src="./assets/vendor/aos-master/dist/aos.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
