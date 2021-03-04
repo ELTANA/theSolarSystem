@@ -66,7 +66,7 @@ window.addEventListener("DOMContentLoaded", event => {
 			this.play();
 		}, false);
 	} // Auto Repeat bgAudio
-  });
+});
 
 //  Toggle Play When EqBars is Clicked
 // let toggleBtn = document.querySelector(".toggleBtn");
@@ -82,7 +82,7 @@ $(document).ready(function() {
 		return toggleColor.toggleClass("paused") && ((bgAudio.paused ? bgAudio.play() : bgAudio.pause()));
 	  	// return false;
 	});
-  });
+});
 
 // $(document).ready(function() {
 // 	let toggleColor = $(".eqBar");
