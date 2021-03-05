@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+/* @font-face {
+  font-family: 'Bungee Hairline', cursive;
+  font-style: normal;
+  font-weight: bolder;
+  src: url(../fonts/Bungee_Hairline/BungeeHairline-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nosifer', cursive;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Nosifer/Nosifer-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hanalei', cursive;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Hanalei/Hanalei-Regular.ttf) format('truetype');
+} */
+
+
 
 /*    RESETS DEFAULTS  */
 *,
@@ -86,8 +109,9 @@ body {
     /* background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 100%); */
     background: radial-gradient(ellipse at top, #1b2735 5%, #090a0f 100%);
     color: whitesmoke;
-    /* font-family: 'Newsreader', serif; */
-    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Macondo Swash Caps', cursive; */
     line-height: 2rem;
     font-size: 100%;
     margin-bottom: 11rem;
@@ -194,8 +218,9 @@ h4 {
 p {
   font-weight: 300;
   font-size: 100%;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  line-height: 2em;
 }
 
 a {
@@ -465,7 +490,7 @@ header,
 }
 
 .bg--transp-white {
-  background-color:  rgba(245, 245, 245, .2);
+  background-color:  rgba(245, 245, 245, .1);
 }
 
 .bold {
@@ -516,6 +541,7 @@ body  {
 
 footer {
   height: 10vh;
+  margin-bottom: 4vh;
 }
 /* Footer */
 
@@ -611,7 +637,7 @@ footer {
   }
 
   body {
-    font-size: .8rem;
+    font-size: 1rem;
   } 
   
 }
@@ -619,70 +645,73 @@ footer {
 
 @media only screen and (min-width: 320px) {
 .pct {
-    top: 89%; left: 11.2%;
+    top: 88%; left: 11.2%;
   }
 }
 
 @media only screen and (min-width: 375px) {
 .pct {
-    top: 89.2%; left: 9.5%;
+    top: 88.2%; left: 9.5%;
   }
 }
 
 @media only screen and (min-width: 425px) {
 .pct {
-    top: 89.2%; left: 9%;
+    top: 88.2%; left: 9%;
   }
 }
 
 @media only screen and (min-width: 540px) {
 .pct {
-    top: 89%; left: 7.5%;
+    top: 88%; left: 7.5%;
   }
 }
 
 @media only screen and (min-width: 768px) {
 .pct {
-    top: 89.5%; left: 4.8%;
+    top: 88.9%; left: 4.7%;
   }
 }
 
 @media only screen and (min-width: 800px) {
 .pct {
-    top: 89.5%; left: 5.7%;
+    top: 88.9%; left: 5.7%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
 .pct {
-    top: 89.5%; left: 5%;
+    top: 88.7%; left: 4.6%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
 .pct {
-    top: 88.9%; left: 4.3%;
+    top: 88%; left: 4.5%;
   }
 }
 
 @media only screen and (min-width: 1440px) {
 .pct {
-    top: 89.5%; left: 4.1%;
+    top: 88.5%; left: 4.1%;
   }
 }
 
 @media only screen and (min-width: 1920px) {
  .pct {
-    top: 89.3%; left: 3.6%;
+    top: 88.3%; left: 3.6%;
   }
 }
 
 @media only screen and (min-width: 2560px) {
 .pct {
-    top: 89.6%; left: 3.15%;
+    top: 89.1%; left: 3.15%;
   }
 }
+
 /*    End of Progress Ring Indicator   */
+
+
 
 @media only screen and (min-width: 700px) {
   body {
@@ -758,21 +787,3 @@ footer {
 
 
 
-/* @font-face {
-  font-family: 'Sunflower';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-06MfSroEC.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Sunflower';
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0sMbSroEC.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Sunflower';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/sunflower/v9/RWmPoKeF8fUjqIj7Vc-0-MDSroEC.ttf) format('truetype');
-} */
