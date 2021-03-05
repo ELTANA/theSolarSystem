@@ -203,14 +203,11 @@ header {
 
 /* Begining of Main */
 h4 {
-  /* padding: 0 50px; */
-  line-height: 1.75;
+  line-height: 1.75rem;
+  letter-spacing: .3rem;
   margin-bottom: 5rem;
-  font-family: 'Nosifer', cursive;
-  /* font-family: 'Bungee Hairline', cursive; */
-  /* margin-top: 2em;
-  margin-bottom: 1em; */
-  color: whitesmoke;
+  font-family: 'Hanalei', cursive;
+  /* font-family: 'Nosifer', cursive; */
   font-weight: 300;
   font-size: 250%;
 }
