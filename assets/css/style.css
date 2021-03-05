@@ -206,10 +206,11 @@ h4 {
   line-height: 1.75rem;
   letter-spacing: .3rem;
   margin-bottom: 5rem;
-  font-family: 'Hanalei', cursive;
-  /* font-family: 'Nosifer', cursive; */
+  /* font-family: 'Hanalei', cursive; */
+  font-family: 'Nosifer', cursive;
   font-weight: 300;
   font-size: 250%;
+  /* color: whitesmoke; */
 }
 
 p {
